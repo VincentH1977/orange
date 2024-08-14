@@ -54,7 +54,7 @@ jobs:
             Veuillez trouver ci-joint les PVMC des différents forfaits Orange.
  
             Cordialement,
-            Alexis
+            Vincent
           to: alexis.laboureyras@sfr.com,
               vincent.heritier@sfr.com
           from: ${{ secrets.GMAIL_USERNAME }}
