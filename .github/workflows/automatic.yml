@@ -11,10 +11,10 @@ jobs:
  
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
  
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'  # Utilisez la version Python appropriée
  
@@ -33,7 +33,7 @@ jobs:
           pwd
  
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: output-csv
           path: Orange-Bench-*.csv  # Utilisez un joker pour matcher tous les fichiers générés
